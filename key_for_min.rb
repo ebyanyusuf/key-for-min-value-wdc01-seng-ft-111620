@@ -4,12 +4,5 @@
 def key_for_min_value(name_hash)
   smallest_value = 0 
   empty_hash = nil 
-  name_hash.each do |key, value|
-    name_hash[key][value] < count 
-    p name_hash[key]
-    count += 1
-  end
-  
-  
-
-end
+  name_hash.each do |name, value|
+   
